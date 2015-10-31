@@ -122,10 +122,13 @@ a {
 /* ----- HEADER ------ */
 /*-------------------------------------------*/
 
-/*.headersite {
-	font-size: 0;
-	line-height: 0;
-}*/
+.headersite {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+}
 
 .top-head {
 	font-size: 0;
@@ -134,6 +137,19 @@ a {
 	padding: 40px 0 47px 0;
 	background: #ffffff;
 }
+
+
+/*  For Scrolling  */
+
+.top-head-for-scrolling {
+	padding: 5px 0 5px 0;
+}
+
+.nav-link-for-scrolling {
+	padding: 5px 16px;
+}
+
+/*  / For Scrolling  */
 
 .tel-box,
 .logo-box,

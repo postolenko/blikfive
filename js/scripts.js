@@ -1,6 +1,14 @@
 $(document).ready(function() {
 
 
+	$("body").css({"padding-top": $(".headersite").height() + "px"});
+
+	getResponsiveHeader();
+
+	$(document).scroll(function() {
+		getResponsiveHeader();
+	});
+
 	$(".service-type-box").index();
 
 	for(var countServices = 0; countServices <= $(".service-photo").length - 1; ++countServices) {
@@ -23,6 +31,14 @@ $(document).ready(function() {
 
 	var counterFor = 0;
 	var countRows;
+
+
+
+
+
+
+
+
 
 	// delRightBorder();
 
@@ -54,6 +70,72 @@ $(document).ready(function() {
 		}
 
 	}	
+
+
+	function getResponsiveHeader() {
+
+		// if($(window).scrollTop() >= $(".headersite").height() &&
+		// 	$(".top-head").hasClass("top-head-for-scrolling") != true && 
+		// 	$(".nav-link").removeClass("nav-link-for-scrolling") != true) {
+
+		// 	$(".top-head").addClass("top-head-for-scrolling");
+
+		// 	$(".nav-link").addClass("nav-link-for-scrolling");
+
+		// } else if( $(".top-head").hasClass("top-head-for-scrolling" == true) &&  
+		// 	       $(".nav-link").removeClass("nav-link-for-scrolling" == true)) {
+
+		// 	$(".top-head").removeClass("top-head-for-scrolling");
+
+		// 	$(".nav-link").removeClass("nav-link-for-scrolling");
+
+		// }
+
+
+		if($(window).scrollTop() >= $(".headersite").height() ) {
+
+			$(".top-head").css({"padding": "5px 0 5px 0"});
+
+			$(".nav-link").css({"padding": "5px 16px"});
+
+		} else {
+
+			$(".top-head").css({"padding": "40px 0 47px 0"});
+
+			$(".nav-link").css({"padding": "24px 16px"});
+
+		}
+
+	}
+
+
+
+	//  Показать кнопку прокрутки в вверх страницы
+	function getScrollToTopBtn() {
+		if ($(window).scrollTop() >= $(".headersite").height() ) {
+
+        	$('.scroll-to-top').fadeIn();
+
+        } else {
+
+            $('.scroll-to-top').fadeOut();
+
+        }
+	}
+
+ 
+    $('.scroll-to-top').click(function () {
+
+        $('body,html').animate({
+
+            scrollTop: 0
+
+        }, 1000);
+
+        return false;
+
+    });
+
 
 
 
