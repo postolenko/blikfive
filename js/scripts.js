@@ -1,12 +1,16 @@
 $(document).ready(function() {
 
+	getResponsiveHeader();
+	getScrollToTopBtn();
 
+	
 	$("body").css({"padding-top": $(".headersite").height() + "px"});
 
-	getResponsiveHeader();
+	
 
 	$(document).scroll(function() {
 		getResponsiveHeader();
+		getScrollToTopBtn();
 	});
 
 	$(".service-type-box").index();

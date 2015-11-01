@@ -355,6 +355,22 @@ a {
 	background: #3d4440;
 }
 
+.scroll-to-top {
+	display: block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	position: fixed;
+	bottom: 37px;
+	right: 2%;
+	background-image: url(img/up_arrow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	opacity: .8;
+}
+
+
 /*-------------------------------------------*/
 /* ----- CONTENT ------ */
 /*-------------------------------------------*/
@@ -680,7 +696,7 @@ a {
 }
 
 .social-link:hover {
-	background-position: center -42px;
+	background-position: center -41px;
 } 
 
 /*.twitter {
