@@ -294,7 +294,6 @@ a {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	/*text-align: center;*/
 }
 
 .main-nav {
@@ -305,7 +304,6 @@ a {
 .main-nav-item {
 	display: inline-block;
 	vertical-align: middle;
-	/*text-align: center;*/
 }
 
 .nav-link {
