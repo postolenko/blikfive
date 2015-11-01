@@ -94,7 +94,7 @@ $(document).ready(function() {
 		// 	$(".nav-link").removeClass("nav-link-for-scrolling");
 
 		// }
-
+	$("body").css({"padding-top": $(".headersite").height() + "px"});
 
 		if($(window).scrollTop() >= $(".headersite").height() ) {
 
