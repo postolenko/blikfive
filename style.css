@@ -687,17 +687,18 @@ a {
 	width: 32px;
 	height: 34px;
 	cursor: pointer;
-	background-image: url(img/sprite_social_icons_t.png);
+	/*background-image: url(img/sprite_social_icons_t.png);*/
+	background-image: url(img/sprite_social_icons.png);
 	background-size: 100%;
 	background-position: center 0;
 	background-repeat: no-repeat;
 }
 
-.social-link:hover {
+/*.social-link:hover {
 	background-position: center -41px;
 } 
 
-/*.twitter {
+.twitter {
 background-position: center;
 }
 
@@ -715,7 +716,7 @@ background-position: center;
 
 .rss {
 background-position: center;
-}
+}*/
 
 .mailru {
 
@@ -723,7 +724,7 @@ background-position: center;
 
 .odnoklassniki {
 
-}*/
+}
 
 
 .production-box {
