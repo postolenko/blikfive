@@ -50,7 +50,7 @@
 
 html {
     color: #949494;
-    font-family: 'Exo2-0-Bold', sans-serif;
+    font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;
     font-size: 21px;
 }
 
@@ -98,7 +98,8 @@ body {
 /*-------------------------------------------*/
 
 .row {
-    max-width: 940px;
+    /*max-width: 940px;*/
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -179,7 +180,7 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 	color: #2b2b2b;
-	font-family: 'Exo2-0-Bold', sans-serif;
+	font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 21px;
 
@@ -215,10 +216,6 @@ a {
 	color: #1d804e;
 }
 
-.logo-box {
-	/*text-align: center;*/
-}
-
 .logo {
 	display: block;
 	margin: 0 auto;
@@ -251,7 +248,7 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 	color: #707070;
-	font-family: 'Exo2-0-ExtraLight',sans-serif;
+	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 21px;
 
@@ -308,7 +305,7 @@ a {
 
 .nav-link {
 	float: left;
-	font-family: 'Exo2-0-Bold';
+	font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;
 	color: #ffffff;
 	font-size: 15px;
 	line-height: 21px;
@@ -398,7 +395,6 @@ a {
 	width: 9%;
 	height: 1px;
 	background: #569e7a;
-	/*margin: 0 15px 0 0;*/
 }
 
 .service-head-text {
@@ -406,7 +402,8 @@ a {
 	vertical-align: middle;
 	max-width: 82%;
 	padding: 0 15px;
-	font-family: 'HanSoloPro';
+	/*font-family: 'HanSoloPro', Verdana, Arial, sans-serif;*/
+	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
 	color: #2b2b2b;
 	font-size: 30px;
 	line-height: 30px;
@@ -420,14 +417,13 @@ a {
 	width: 9%;
 	height: 1px;
 	background: #569e7a;
-	/*margin: 0 0 0 0;*/
 }
 
 .quetion-about-service {
 	display: inline-block;
 	vertical-align: top;
 	color: #2b2b2b;
-	font-family: 'Exo2-0-ExtraLight',sans-serif;
+	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
 	font-size: 18px;
 	line-height: 23px;
 	padding: 0 0 5px 0;
@@ -448,7 +444,6 @@ a {
 	height: 6px;
 	padding: 0 4px 0 0;
 }
-
 
 .types-services {
 	font-size: 0;
@@ -551,13 +546,13 @@ a {
 /*------------------*/
 
 
-
 .service-name {
 	margin: 0 40px;
 	position: absolute;
 	top: 0;
 	color: #ffffff;
-	font-family: 'HanSoloPro', sans-serif;
+	/*font-family: 'HanSoloPro', Verdana, Arial, sans-serif;*/
+	font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 	text-transform: uppercase;
@@ -603,11 +598,9 @@ a {
 }
 
 .footer-menu {
-
-}
-
-.main-nav {
-
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
 }
 
 .footer-nav-item {
@@ -618,7 +611,7 @@ a {
 
 .footer-nav-link {
 	float: left;
-	font-family: 'Exo2-0-ExtraLight';
+	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
 	color: #a3a3a3;
 	font-size: 16px;
 	line-height: 21px;
@@ -668,12 +661,10 @@ a {
 	cursor: pointer;
 }
 
-.footer-social-icons-box {
-
-}
-
 .footer-social-icons {
-
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
 }
 
 .social-icon-item {
@@ -687,16 +678,10 @@ a {
 	width: 32px;
 	height: 32px;
 	cursor: pointer;
-	/*background-image: url(img/sprite_social_icons_t.png);*/
 	background-image: url(img/sprite_social_icons.png);
-	/*background-size: 100%;*/
 	background-position: -20px 0;
 	background-repeat: no-repeat;
 }
-
-/*.social-link:hover {
-	background-position: 0 -50px;
-} */
 
 .twitter {
 	background-position: 0 0;
@@ -714,7 +699,6 @@ a {
 	background-position: -36px -50px;
 }
 
-
 .facebook {
 	background-position: -74px 0;
 }
@@ -723,14 +707,14 @@ a {
 	background-position: -74px -50px;
 }
 
-.myround {
+/*.myround {
 	background-position: -110px 0;
 }
 
 .myround:hover {
 	background-position: -110px -50px;
 }
-
+*/
 .rss {
 	background-position: -148px 0;
 }
@@ -765,14 +749,14 @@ a {
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 auto;
-	font-family: 'Exo2-0-ExtraLight';
+	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
 	color: #707070;
 	font-size: 16px;
 	line-height: 21px;
 }
 
 .home-link-copy {
-	font-family: 'Exo2-0-ExtraLight';
+	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
 	color: #707070;
 	font-size: 16px;
 	line-height: 21px;
