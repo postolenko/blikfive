@@ -685,46 +685,76 @@ a {
 .social-link {
 	display: block;
 	width: 32px;
-	height: 34px;
+	height: 32px;
 	cursor: pointer;
-	background-image: url(img/sprite_social_icons_t.png);
-	/*background-image: url(img/sprite_social_icons.png);*/
-	background-size: 100%;
-	background-position: center 0;
+	/*background-image: url(img/sprite_social_icons_t.png);*/
+	background-image: url(img/sprite_social_icons.png);
+	/*background-size: 100%;*/
+	background-position: -20px 0;
 	background-repeat: no-repeat;
 }
 
-.social-link:hover {
-	background-position: center -41px;
-} 
+/*.social-link:hover {
+	background-position: 0 -50px;
+} */
 
-/*.twitter {
-background-position: center;
+.twitter {
+	background-position: 0 0;
+}
+
+.twitter:hover {
+	background-position: 0 -50px;
 }
 
 .vk {
-background-position: center;
+	background-position: -36px 0;
 }
 
+.vk:hover {
+	background-position: -36px -50px;
+}
+
+
 .facebook {
-background-position: center;
+	background-position: -74px 0;
+}
+
+.facebook:hover {
+	background-position: -74px -50px;
 }
 
 .myround {
-background-position: center;
+	background-position: -110px 0;
+}
+
+.myround:hover {
+	background-position: -110px -50px;
 }
 
 .rss {
-background-position: center;
+	background-position: -148px 0;
+}
+
+.rss:hover {
+	background-position: -148px -50px;
 }
 
 .mailru {
+	background-position: -184px 0;
+}
 
+.mailru:hover {
+	background-position: -184px -50px;
 }
 
 .odnoklassniki {
+	background-position: -223px 0;
+}
 
-}*/
+.odnoklassniki:hover {
+	background-position: -223px -50px;
+}
+
 
 
 .production-box {
