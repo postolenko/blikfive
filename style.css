@@ -687,8 +687,8 @@ a {
 	width: 32px;
 	height: 34px;
 	cursor: pointer;
-	/*background-image: url(img/sprite_social_icons_t.png);*/
-	background-image: url(img/sprite_social_icons.png);
+	background-image: url(img/sprite_social_icons_t.png);
+	/*background-image: url(img/sprite_social_icons.png);*/
 	background-size: 100%;
 	background-position: center 0;
 	background-repeat: no-repeat;
