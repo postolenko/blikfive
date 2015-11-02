@@ -694,11 +694,11 @@ a {
 	background-repeat: no-repeat;
 }
 
-/*.social-link:hover {
+.social-link:hover {
 	background-position: center -41px;
 } 
 
-.twitter {
+/*.twitter {
 background-position: center;
 }
 
@@ -716,7 +716,7 @@ background-position: center;
 
 .rss {
 background-position: center;
-}*/
+}
 
 .mailru {
 
@@ -724,7 +724,7 @@ background-position: center;
 
 .odnoklassniki {
 
-}
+}*/
 
 
 .production-box {
