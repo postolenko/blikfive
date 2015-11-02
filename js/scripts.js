@@ -21,8 +21,6 @@ $(document).ready(function() {
 	}
 
 
-
-
 	// var rowWidth = $(".row").width();
 	// var aboutarticleWidth = $(".service-type-box").outerWidth();
 	// // var articlesLenght = $(".service-type-box").length - 1;
