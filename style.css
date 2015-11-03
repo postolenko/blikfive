@@ -109,13 +109,18 @@ body {
 }
 
 body {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
+	background-image: url(img/blikbg.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 
 .wrapper {
     display: table; 
     height: 100%;
     min-width: 100%;
+    background: rgba(255,255,255, .8);
 }
 
 .content {

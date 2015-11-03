@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	// getResponsiveHeader();
+	getResponsiveHeader();
 	getScrollToTopBtn();
 
 	
@@ -8,7 +8,7 @@ $(document).ready(function() {
 	
 
 	$(document).scroll(function() {
-		// getResponsiveHeader();
+		getResponsiveHeader();
 		getScrollToTopBtn();
 	});
 
@@ -80,7 +80,7 @@ $(document).ready(function() {
 
 			$(".top-head").css({"padding": "40px 0 47px 0"});
 
-			$(".nav-link").css({"padding": "24px 16px"});
+			$(".nav-link").css({"padding": "12px 22px"});
 
 		}
 
