@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	getResponsiveHeader();
+	// getResponsiveHeader();
 	getScrollToTopBtn();
 
 	
@@ -8,7 +8,7 @@ $(document).ready(function() {
 	
 
 	$(document).scroll(function() {
-		getResponsiveHeader();
+		// getResponsiveHeader();
 		getScrollToTopBtn();
 	});
 

@@ -37,6 +37,39 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),  
+		  url('fonts/HelveticaNeue.woff') format('woff'), 
+		  url('fonts/HelveticaNeue.ttf')  format('truetype'), 
+		  url('fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('fonts/ProximaNova-Light.eot?#iefix') format('embedded-opentype'),  
+		url('fonts/ProximaNova-Light.otf')  format('opentype'),
+		url('fonts/ProximaNova-Light.woff') format('woff'), 
+		url('fonts/ProximaNova-Light.ttf')  format('truetype'), 
+		url('fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('fonts/proximanova-light.eot');
+    src: url('fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light.woff2') format('woff2'),
+         url('fonts/proximanova-light.woff') format('woff'),
+         url('fonts/proximanova-light.ttf') format('truetype'),
+         url('fonts/proximanova-light.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 /*-------------------------------------------*/
 /* BASIC SETUP */
@@ -305,7 +338,9 @@ a {
 
 .nav-link {
 	float: left;
-	font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;
+	/*font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;*/
+	/*font-family: 'HelveticaNeue';*/
+	font-family: "HelveticaNeue",Arial,sans-serif;
 	color: #ffffff;
 	font-size: 15px;
 	line-height: 21px;
@@ -313,6 +348,7 @@ a {
 	text-align: center;
 	cursor: pointer;
 	padding: 24px 16px;
+	padding: 24px 13px;
 	border-top: 1px solid transparent;
 	border-bottom: 1px solid transparent;
 	border-left: 1px solid #4e9270;
@@ -403,10 +439,21 @@ a {
 	max-width: 82%;
 	padding: 0 15px;
 	/*font-family: 'HanSoloPro', Verdana, Arial, sans-serif;*/
-	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
-	color: #2b2b2b;
-	font-size: 30px;
-	line-height: 30px;
+	/*font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;*/
+	/*font-family: 'ProximaNova-Light', Arial, sans-serif;*/
+	/*font-family: "ProximaNovaLight",sans-serif,Arial;*/
+	/*font-family: "ProximaNovaLight";*/
+	/*font-family: 'ProximaNovaLight',sans-serif,Arial;*/
+	font-family: 'proxima_novalight',sans-serif,Arial;
+	/*color: #2b2b2b;*/
+	color:#aaa;
+/*	font-size: 30px;
+	line-height: 30px;*/
+/*	font-size: 43px;
+	line-height: 48px;*/
+	font-size: 35px;
+	line-height: 37px;
+	font-weight: lighter;
 	text-transform: uppercase;
 }
 
@@ -423,7 +470,9 @@ a {
 	display: inline-block;
 	vertical-align: top;
 	color: #2b2b2b;
-	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
+	/*font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;*/
+	/*font-family: "ProximaNovaLight";*/
+	font-family: 'ProximaNovaLight', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 23px;
 	padding: 0 0 5px 0;
@@ -552,7 +601,10 @@ a {
 	top: 0;
 	color: #ffffff;
 	/*font-family: 'HanSoloPro', Verdana, Arial, sans-serif;*/
-	font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;
+	/*font-family: 'Exo2-0-Bold', Verdana, Arial, sans-serif;*/
+	/*font-family: "ProximaNova-Light",sans-serif,Arial;*/
+	/*font-family: "ProximaNovaLight";*/
+	font-family: 'ProximaNovaLight', Arial, sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 	text-transform: uppercase;
