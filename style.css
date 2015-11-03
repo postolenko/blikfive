@@ -684,7 +684,9 @@ a {
 	/*font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;*/
 	font-family: "HelveticaNeue", Arial, sans-serif;
 	color: #a3a3a3;
-	font-size: 16px;
+/*	font-size: 16px;
+	line-height: 21px;*/
+	font-size: 15px;
 	line-height: 21px;
 	text-align: center;
 	cursor: pointer;
