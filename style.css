@@ -681,7 +681,8 @@ a {
 
 .footer-nav-link {
 	float: left;
-	font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;
+	/*font-family: 'Exo2-0-ExtraLight', Verdana, Arial, sans-serif;*/
+	font-family: "HelveticaNeue", Arial, sans-serif;
 	color: #a3a3a3;
 	font-size: 16px;
 	line-height: 21px;
