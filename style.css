@@ -121,6 +121,7 @@ body {
     height: 100%;
     min-width: 100%;
     background: rgba(255,255,255, .8);
+    /*background: rgba(0,0,0, .7);*/
 }
 
 .content {
@@ -469,7 +470,8 @@ a {
 	/*font-family: 'ProximaNovaLight',sans-serif,Arial;*/
 	/*font-family: 'proxima_novalight', Arial, sans-serif;*/
 	/*color: #2b2b2b;*/
-	color:#aaa;
+	color: #3d3d3d;
+	/*color:#aaa;*/
 /*	font-size: 30px;
 	line-height: 30px;*/
 /*	font-size: 43px;
@@ -628,7 +630,9 @@ a {
 	/*font-family: "ProximaNova-Light",sans-serif,Arial;*/
 	/*font-family: "ProximaNovaLight";*/
 	font-family: 'ProximaNovaLight', Arial, sans-serif;
-	font-size: 20px;
+/*	font-size: 20px;
+	line-height: 30px;*/
+	font-size: 16px;
 	line-height: 30px;
 	text-transform: uppercase;
 	padding: 10px 13px;
