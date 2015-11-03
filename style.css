@@ -5,81 +5,6 @@
 /*------------------*/
 
 
-/*@font-face {
-  font-family: 'HanSoloPro';
-  src: url('fonts/HanSoloPro.eot?#iefix') format('embedded-opentype'),  
-	   url('fonts/HanSoloPro.woff') format('woff'), 
-	   url('fonts/HanSoloPro.ttf')  format('truetype'), 
-	   url('fonts/HanSoloPro.svg#HanSoloPro') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}*/
-
-/*@font-face {
-  font-family: 'Exo2-0-Bold';
-  src: url('fonts/Exo2-0-Bold.eot?#iefix') format('embedded-opentype'),  
-	   url('fonts/Exo2-0-Bold.otf')  format('opentype'),
-	   url('fonts/Exo2-0-Bold.woff') format('woff'),
-	   url('fonts/Exo2-0-Bold.ttf')  format('truetype'),
-	   url('fonts/Exo2-0-Bold.svg#Exo2.0-Bold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Exo2-0-ExtraLight';
-  src: url('fonts/Exo2-0-ExtraLight.eot?#iefix') format('embedded-opentype'),
-	   url('fonts/Exo2-0-ExtraLight.otf')  format('opentype'),
-	   url('fonts/Exo2-0-ExtraLight.woff') format('woff'),
-	   url('fonts/Exo2-0-ExtraLight.ttf')  format('truetype'),
-	   url('fonts/Exo2-0-ExtraLight.svg#Exo2.0-ExtraLight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}*/
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('fonts/HelveticaNeue.eot?#iefix') format('embedded-opentype'),  
-		  url('fonts/HelveticaNeue.woff') format('woff'), 
-		  url('fonts/HelveticaNeue.ttf')  format('truetype'), 
-		  url('fonts/HelveticaNeue.svg#HelveticaNeue') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/*@font-face {
-    font-family: 'proxima novalight';
-    src: url('fonts/proximanova-light.woff2') format('woff2'),
-         url('fonts/proximanova-light.woff') format('woff'),
-         url('fonts/proximanova-light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}*/
-
-/*@font-face {
-    font-family: 'proxima novalight';
-    src: url('fonts/proximanova-light.eot'),
-    	 url('fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),
-         url('fonts/proximanova-light.woff2') format('woff2'),
-         url('fonts/proximanova-light.woff') format('woff'),
-         url('fonts/proximanova-light.ttf') format('truetype'),
-         url('fonts/proximanova-light.svg#proxima_novalight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
-@font-face {
-    /*font-family: 'proxima_nova';*/
-/*    src: url('fonts/proximanova-light.eot');*/
-    /*src: url('fonts/proximanova-light.eot?#iefix') format('embedded-opentype'),*/
-    /*src: url('fonts/ProximaNovaA-Light.woff2') format('woff2');*/
-
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
   font-family: 'ProximaNovaA-Light';
   src: url('fonts/ProximaNovaA-Light.eot?#iefix') format('embedded-opentype'),  
@@ -90,38 +15,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
-
-/*@font-face {
-  font-family: 'ProximaNova-Regular';
-  src: url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),  
-		url('fonts/ProximaNova-Regular.woff') format('woff'), 
-		url('fonts/ProximaNova-Regular.ttf')  format('truetype'), 
-		url('fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}*/
-
-
-/*@font-face {
-    font-family: 'Roboto';
-    src: url('fonts/roboto-light.eot'),
-    	 url('fonts/roboto-light.eot?#iefix') format('embedded-opentype'),
-         url('fonts/roboto-light.woff2') format('woff2'),
-         url('fonts/roboto-light.woff') format('woff'),
-         url('fonts/roboto-light.ttf') format('truetype'),
-         url('fonts/roboto-light.svg#robotolight') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}*/
-
-@font-face {
-  font-family: 'RobotoMedium';
-  src:  url('fonts/RobotoMedium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
 
 /*-------------------------------------------*/
 /* BASIC SETUP */
