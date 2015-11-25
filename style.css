@@ -85,12 +85,12 @@ body {
     display: table; 
     height: 100%;
     min-width: 100%;
-/*    background: rgba(255,255,255, .8);*/
+    background: rgba(255,255,255, .8);
     /*background: rgba(0,0,0, .7);*/
 }
 
 .wrapper:before {
-	display: block;
+/*	display: block;
 	content: "";
 	max-height: 100%;
 	min-height: 100vh;
@@ -101,17 +101,40 @@ body {
 	left: 0;
 	background-image: url(img/blikbg.jpg);
 	background-size: cover;
-	background-position: center;
+	background-position: center;*/
 }
 
-/*.opacity-bg {
-	height: 100%;
+.opacity-bg {
+/*	height: 100%;
 	width: 100%;
 	position: fixed;
 	top: 0;
 	left: 0;
+	background: rgba(255,255,255, .8);*/
+	height: 100%;
+	min-height: 100vh;
+	width: 100%;
+	min-width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(img/blikbg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.opacity-bg:after {
+	display: block;
+	content: "";
+	height: 100%;
+	min-height: 100vh;
+	width: 100%;
+	min-width: 100vw;
+/*	position: fixed;
+	top: 0;
+	left: 0;*/
 	background: rgba(255,255,255, .8);
-}*/
+}
 
 .content {
     position: relative;
@@ -120,7 +143,7 @@ body {
 }
 
 .content:before {
-	display: block;
+/*	display: block;
 	content: "";
 	max-height: 100%;
 	min-height: 100vh;
@@ -129,7 +152,7 @@ body {
 	position: fixed;
 	top: 0;
 	left: 0;
-	background: rgba(255,255,255, .8);
+	background: rgba(255,255,255, .8);*/
 }
 
 
