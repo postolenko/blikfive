@@ -121,18 +121,20 @@ body {
 	background-image: url(img/blikbg.jpg);
 	background-size: cover;
 	background-position: center;
+	font-size: 32px;
+	line-height: 32px; 
 }
 
-.opacity-bg:after {
+.opacity-bg:before {
 	display: block;
 	content: "";
 	height: 100%;
 	min-height: 100vh;
 	width: 100%;
 	min-width: 100vw;
-/*	position: fixed;
+	position: absolute;
 	top: 0;
-	left: 0;*/
+	left: 0;
 	background: rgba(255,255,255, .8);
 }
 
