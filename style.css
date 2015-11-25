@@ -121,6 +121,7 @@ body {
 	background-image: url(img/blikbg.jpg);
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	font-size: 32px;
 	line-height: 32px; 
 }
