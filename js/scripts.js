@@ -3,6 +3,9 @@ $(document).ready(function() {
 	// getResponsiveHeader();
 	getScrollToTopBtn();
 
+
+	// $(".opacity-bg").css({"width": $(window).width() + "px",
+	// 					  "height": $(window).height() + "px");
 	
 	$("body").css({"padding-top": $(".headersite").height() + "px"});
 	
