@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 
 	$(".opacity-bg").css({"width": $(window).width() + "px",
-						  "height": $(window).height() + "px");
+						  "height": $(window).height() + "px"});
 	
 	$("body").css({"padding-top": $(".headersite").height() + "px"});
 	
