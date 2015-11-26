@@ -117,20 +117,6 @@ body {
     height:100%;
 }
 
-.content:before {
-/*	display: block;
-	content: "";
-	max-height: 100%;
-	min-height: 100vh;
-	max-width: 100%;
-	min-width: 100vw;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background: rgba(255,255,255, .8);*/
-}
-
-
 .clearfix:after {
     content: "."; 
     display: block; 
