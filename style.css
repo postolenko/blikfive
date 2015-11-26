@@ -68,40 +68,12 @@ body {
 	font-family: Arial, sans-serif;
 }
 
-/*body:before {
-	display: block;
-	content: "";
-	height: 100%;
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-image: url(img/blikbg.jpg);
-	background-size: cover;
-	background-position: center;
-}*/
-
 .wrapper {
     display: table; 
     height: 100%;
     min-width: 100%;
     background: rgba(255,255,255, .8);
     /*background: rgba(0,0,0, .7);*/
-}
-
-.wrapper:before {
-/*	display: block;
-	content: "";
-	max-height: 100%;
-	min-height: 100vh;
-	max-width: 100%;
-	min-width: 100vw;
-	position: fixed;
-	top: 0;
-	left: 0;
-	background-image: url(img/blikbg.jpg);
-	background-size: cover;
-	background-position: center;*/
 }
 
 .opacity-bg {
