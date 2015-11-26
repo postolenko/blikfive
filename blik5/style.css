@@ -475,7 +475,7 @@ a {
 	vertical-align: top;
 	font-size: 23px;
 	line-height: 23px;
-	content: "\2A";
+	content: "*";
 	width: 6px;
 	height: 6px;
 	padding: 0 4px 0 0;
@@ -583,16 +583,14 @@ a {
 
 
 .service-name {
-	display: block;
-	width: 70%;
-	position: relative;
+	margin: 0 40px;
+	position: absolute;
 	top: 0;
 	color: #ffffff;
 	font-family: "ProximaNovaA-Light", Verdana, sans-serif;
 	font-size: 20px;
 	line-height: 30px;
 	text-transform: uppercase;
-	margin: 0 auto;
 	padding: 10px 13px;
 	background: #5f9b7d;
 	background: rgba(94, 155, 124, .9);
@@ -616,7 +614,7 @@ a {
     transition-property: background;
     transition-duration: 0.3s;
     transition-timing-function: ease;
-    
+
 }
 
 
